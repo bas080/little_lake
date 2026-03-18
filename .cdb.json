@@ -1,0 +1,11 @@
+{
+   "name": "little_lake",
+   "title": "Little Lake",
+   "short_description": "Spawns little lakes both in caves and mountains",
+   "dev_state": "ACTIVELY_DEVELOPED",
+   "license" : "LGPL-2.1-only",
+   "media_license" : "LGPL-2.1-only",
+   "type": "MOD",
+   "$author": "bas080",
+   "$version": "0.0.0"
+}
