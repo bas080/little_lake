@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Waterfalls spawning above lakes when small falls installed.
+
 ## 0.1.0
 
 - Do not spawn when leaves are in fill area.
