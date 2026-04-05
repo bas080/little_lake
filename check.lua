@@ -1,5 +1,4 @@
 local test, gen = luanti_check()
-
 local range = 40
 
 test("Spawns little lakes in expected places", function(t)
@@ -16,7 +15,7 @@ test("Spawns little lakes in expected places", function(t)
 			return t.retry("Did not find a water source")
 		end
 
-		t.done() -- Reached the end. It seems you have spawned a waterfall.
+		t.done("Found the little lake")
 	end
 
 	t.emerge(on_emerge)

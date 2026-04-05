@@ -67,6 +67,9 @@ local function fill_water_along_wall(start_pos)
 
 	-- Step 3 & 4: loop over positions and place water_source
 	for _, pos in ipairs(flood) do
+		if math.random(500) == 1 then
+			small_fall.try_spawn(pos)
+		end
 		core.set_node(pos, { name = "default:water_source" })
 	end
 end
