@@ -1,3 +1,5 @@
+-- luacheck: read_globals luanti_check
+
 local test, gen = luanti_check()
 local range = 40
 

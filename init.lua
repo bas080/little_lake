@@ -1,3 +1,5 @@
+-- luacheck: read_globals luanti_utils small_fall
+
 local register_decoration = luanti_utils.dofile("register_decoration.lua")
 local is_buildable_to = luanti_utils.dofile("is_buildable_to.lua")
 local node_matches = luanti_utils.dofile("node_matches.lua")
